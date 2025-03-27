@@ -1,13 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Loja de Sapatos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Testando Git</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, ipsum!</p>
+    <header>
+        <div class="container">
+            <h1>Loja de Sapatos</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Produtos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
  
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Bem-vindo à nossa loja!</h2>
+            <p>Confira nossa seleção de sapatos modernos e estilosos.</p>
+        </div>
+    </section>
+
+    <section id="produtos">
+        <div class="container">
+            <h2>Nossos Produtos</h2>
+            <div class="produtos-lista">
+                <div class="produto">
+                    <img src="img/casual.jpg" alt="Sapato Casual">
+                    <h3>Sapato Casual</h3>
+                    <p>R$ 199,99</p>
+                    <button class="btn-comprar">Comprar</button> <!-- Botão Comprar -->
+                </div>
+                <div class="produto">
+                    <img src="img/social.jpg" alt="Sapato Social">
+                    <h3>Sapato Social</h3>
+                    <p>R$ 249,99</p>
+                    <button class="btn-comprar">Comprar</button> <!-- Botão Comprar -->
+                </div>
+                <div class="produto">
+                    <img src="img/images.jpg" alt="Sapato Esportivo">
+                    <h3>Sapato Esportivo</h3>
+                    <p>R$ 179,99</p>
+                    <button class="btn-comprar">Comprar</button> <!-- Botão Comprar -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Loja de Sapatos - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Arquivo JS para alternar o modo -->
 </body>
 </html>
